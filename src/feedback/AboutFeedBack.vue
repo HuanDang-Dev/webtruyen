@@ -16,7 +16,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import NavigationComponent from "@/components/NavigationComponent.vue";
 import FooterComponent from "@/components/FooterComponent.vue";
 import BackgroundComponent from "@/components/BackgroundComponent.vue";

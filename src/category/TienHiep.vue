@@ -1,5 +1,5 @@
 <template>
-  <div class="category">
+  <div class="TienHiep">
     <NavigationComponent></NavigationComponent>
     <BackgroundComponent></BackgroundComponent>
     <div class="main-body height-100vh pt-4">
@@ -74,6 +74,8 @@
         </div>
       </div>
     </div>
+    
+    
     <div class="container-fluid py-4 second-background">
         <div class="container">
             <div class="row m-0 p-0">
@@ -95,7 +97,7 @@ import ContactComponent from "@/components/ContactComponent.vue";
 import SlideBar from "@/components/SlideBar.vue";
 
 export default {
-  name: "category",
+  name: "TienHiep",
   components: {
     NavigationComponent,
     FooterComponent,

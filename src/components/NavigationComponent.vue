@@ -26,19 +26,19 @@
             <div class=" d-flex flex-row">
               <div>
                 <vs-dropdown-item>
-                 <a href="/category" class="d-flex">
+                 <a href="/ngontinh" class="d-flex">
                  <vs-icon class="px-1" icon="loyalty"></vs-icon>
                     Ngôn Tình
                   </a>
                 </vs-dropdown-item>
                 <vs-dropdown-item divider>
-                  <a href="/category" class="d-flex">
+                  <a href="/tienhiep" class="d-flex">
                   <vs-icon class="px-1" icon="loyalty"></vs-icon>
                     Tiên Hiệp
                   </a>
                 </vs-dropdown-item>
                 <vs-dropdown-item divider>
-                  <a href="/category" class="d-flex">
+                  <a href="/kiemhiep" class="d-flex">
                   <vs-icon class="px-1" icon="loyalty"></vs-icon>
                     Kiếm Hiệp
                   </a>
@@ -46,19 +46,19 @@
               </div>
               <div>
                 <vs-dropdown-item>
-                  <a href="/category" class="d-flex">
+                  <a href="/truyenteen" class="d-flex">
                   <vs-icon class="px-1" icon="loyalty"></vs-icon>
                     Truyện Teen
                   </a>
                 </vs-dropdown-item>
                 <vs-dropdown-item divider>
-                  <a href="/category" class="d-flex">
+                  <a href="/truyenma" class="d-flex">
                   <vs-icon class="px-1" icon="loyalty"></vs-icon>
                     Truyện Ma
                   </a>
                 </vs-dropdown-item>
                 <vs-dropdown-item divider>
-                  <a href="/category" class="d-flex">
+                  <a href="/lichsu" class="d-flex">
                   <vs-icon class="px-1" icon="loyalty"></vs-icon>
                     Lịch Sử
                   </a>
@@ -68,32 +68,29 @@
           </vs-dropdown-menu>
         </vs-dropdown>
 
-
-
       </vs-navbar-item>
       <vs-navbar-item class="mx-2" index="2">
         <vs-dropdown class="text-white text-justify align-content">
           <a href="/search" class="d-flex text-09">
             Sắp xếp
           </a>
-
           <vs-dropdown-menu>
             <div class=" d-flex flex-row text-black-50">
               <div>
                 <vs-dropdown-item>
-                 <a href="/search" class="d-flex">
+                 <a href="/truyenvip" class="d-flex">
                  <vs-icon class="px-1" icon="grade"></vs-icon>
                     Truyện Vip
                   </a>
                 </vs-dropdown-item>
                 <vs-dropdown-item divider>
-                  <a href="/search" class="d-flex">
+                  <a href="/truyenmoicapnhat" class="d-flex">
                   <vs-icon class="px-1" icon="autorenew"></vs-icon>
                     Mới Cập Nhật
                   </a>
                 </vs-dropdown-item>
                 <vs-dropdown-item divider>
-                  <a href="/search" class="d-flex">
+                  <a href="/truyenyeuthich" class="d-flex">
                   <vs-icon class="px-1" icon="favorite"></vs-icon>
                     Truyện Yêu Thích
                   </a>
@@ -101,19 +98,19 @@
               </div>
               <div>
                 <vs-dropdown-item>
-                  <a href="/search" class="d-flex">
+                  <a href="/truyendecu" class="d-flex">
                   <vs-icon class="px-1" icon="trending_up"></vs-icon>
                     Truyện Đề Cử
                   </a>
                 </vs-dropdown-item>
                 <vs-dropdown-item divider>
-                  <a href="/search" class="d-flex">
+                  <a href="/truyenxemnhieu" class="d-flex">
                   <vs-icon class="px-1" icon="visibility"></vs-icon>
                     Truyện Xem Nhiều
                   </a>
                 </vs-dropdown-item>
                 <vs-dropdown-item divider>
-                  <a href="/search" class="d-flex">
+                  <a href="/truyenfull" class="d-flex">
                   <vs-icon class="px-1" icon="signal_cellular_alt"></vs-icon>
                     Truyện Full
                   </a>

@@ -1,5 +1,5 @@
 <template>
-  <div class="category">
+  <div class="truyenvip">
     <NavigationComponent></NavigationComponent>
     <BackgroundComponent></BackgroundComponent>
     <div class="main-body height-100vh pt-4">
@@ -10,20 +10,29 @@
               <div class="row no-gutters">
                 <div class="col-12">
                   <div class="card-body">
-                    <h5 class="card-title text-left">Thể loại truyện</h5>
+                    <h5 class="card-title text-left">Truyện Vip</h5>
                     <div class=" d-flex flex-column">
                       <div class="d-flex flex-row my-2">
-                        <div class="mx-2" @click="tienhiep = false, ngontinh= true, teen = false">
-                          <button type="button" class="btn btn-secondary">Ngôn Tình</button>
+                        <div class="mx-2" @click="truyenfull = true, truyenkfull = false">
+                          <button type="button" class="btn btn-info">Truyện Full</button>
                         </div>
-                        <div class="mx-2" @click="tienhiep = true, ngontinh= false, teen = false">
-                          <button type="button" class="btn btn-secondary">Tiên Hiệp</button>
-                        </div>
-                        <div class="mx-2" @click="tienhiep = false, ngontinh= false, teen = true">
-                          <button type="button" class="btn btn-secondary">Truyện Teen</button>
+                        <div class="mx-2" @click="truyenkfull = true, truyenfull = false ">
+                          <button type="button" class="btn btn-info">Truyện chưa full</button>
                         </div>
                       </div>
-                      <div class="d-flex flex-column">
+                      <div class="d-flex flex-row my-2">
+                        <div class="mx-2" @click="tienhiep = false, ngontinh= true, teen = false">
+                          <button type="button" class="btn btn-info">Ngôn Tình</button>
+                        </div>
+                        <div class="mx-2" @click="tienhiep = true, ngontinh= false, teen = false">
+                          <button type="button" class="btn btn-info">Tiên Hiệp</button>
+                        </div>
+                        <div class="mx-2" @click="tienhiep = false, ngontinh= false, teen = true">
+                          <button type="button" class="btn btn-info">Truyện Teen</button>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-column" v-if="truyenfull">
                           <ul class="py-1 my-0 my-2" v-if="ngontinh">
                             <li class="d-flex flex-row text-justify border-item py-3" v-for="item in truyenNgonTinh" :key="item.id">
                               <a href="#" class="image-item my-1">
@@ -95,7 +104,7 @@ import ContactComponent from "@/components/ContactComponent.vue";
 import SlideBar from "@/components/SlideBar.vue";
 
 export default {
-  name: "category",
+  name: "TruyenVip",
   components: {
     NavigationComponent,
     FooterComponent,
@@ -108,6 +117,8 @@ export default {
       ngontinh: true,
       tienhiep: false,
       teen: false,
+      truyenfull: false,
+      truyenkfull: false,
       truyenNgonTinh: [
         {
           link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",

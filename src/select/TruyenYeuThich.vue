@@ -1,5 +1,5 @@
 <template>
-  <div class="category">
+  <div class="truyenvip">
     <NavigationComponent></NavigationComponent>
     <BackgroundComponent></BackgroundComponent>
     <div class="main-body height-100vh pt-4">
@@ -95,7 +95,7 @@ import ContactComponent from "@/components/ContactComponent.vue";
 import SlideBar from "@/components/SlideBar.vue";
 
 export default {
-  name: "category",
+  name: "TruyenVip",
   components: {
     NavigationComponent,
     FooterComponent,
