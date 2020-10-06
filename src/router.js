@@ -91,6 +91,16 @@ export default new Router({
       path: '/news',
       name: 'news',
       component: () => import('./news/AboutNews.vue')
+    },
+    {
+      path: '/truyen',
+      name: 'truyen',
+      component: () => import('./story/truyen.vue')
+    },
+    {
+      path: '/doctruyen',
+      name: 'doctruyen',
+      component: () => import('./readthestory/DocTruyen.vue')
     }
   ]
 })

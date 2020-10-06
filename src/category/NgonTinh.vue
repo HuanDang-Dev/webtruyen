@@ -14,13 +14,13 @@
                     <div class=" d-flex flex-column">
                       <div class="d-flex flex-row my-2">
                         <div class="mx-2" @click="tienhiep = false, ngontinh= true, teen = false">
-                          <button type="button" class="btn btn-secondary">Ngôn Tình</button>
+                          <button type="button" class="btn btn-info">Ngôn Tình</button>
                         </div>
                         <div class="mx-2" @click="tienhiep = true, ngontinh= false, teen = false">
-                          <button type="button" class="btn btn-secondary">Tiên Hiệp</button>
+                          <button type="button" class="btn btn-info">Tiên Hiệp</button>
                         </div>
                         <div class="mx-2" @click="tienhiep = false, ngontinh= false, teen = true">
-                          <button type="button" class="btn btn-secondary">Truyện Teen</button>
+                          <button type="button" class="btn btn-info">Truyện Teen</button>
                         </div>
                       </div>
                       <div class="d-flex flex-column">
