@@ -77,81 +77,81 @@ export default {
       return {
           reviewTruyen: [
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           src: "https://img.webtruyen.com/public/images/news/small74toptruyentienhiephaihuochaynhat.jpg"
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           src: "https://img.webtruyen.com/public/images/news/small74toptruyentienhiephaihuochaynhat.jpg"
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           src: "https://img.webtruyen.com/public/images/news/small74toptruyentienhiephaihuochaynhat.jpg"
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           src: "https://img.webtruyen.com/public/images/news/small74toptruyentienhiephaihuochaynhat.jpg"
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           src: "https://img.webtruyen.com/public/images/news/small74toptruyentienhiephaihuochaynhat.jpg"
         }
       ],
       topTruyenHay: [
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           id: 1
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           id: 2
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           id: 3
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           id: 4
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           id: 5
         }
       ],
       topTruyenMoiDang: [
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           id: 1
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           id: 2
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           id: 3
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           id: 4
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           title: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           id: 5
         }

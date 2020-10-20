@@ -123,8 +123,10 @@
       <vs-navbar-item class="mx-2" index="3">
         <a class=" text-09" href="/news">News</a>
       </vs-navbar-item>
-      <vs-input class="px-0 ml-2 mx-1" placeholder="Search" v-model="search"/>
-      <vs-button color="white" type="gradient" icon="search"></vs-button>
+      <div class="d-flex align-items-center">
+        <vs-input class="px-0 ml-2 mx-1" placeholder="Search" v-model="search"/>
+        <vs-button color="white" type="gradient" icon="search"></vs-button>
+      </div>
 
       <div class="">
         <vs-button class="border-0 ml-2 text-08" @click="activePrompt = true" color="#F60" type="gradient" icon="person" size="small">Đăng Nhập</vs-button>

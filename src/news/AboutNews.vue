@@ -71,32 +71,32 @@ export default {
       return {
       data: [
               {
-                link: "/",
+                link: "/truyen",
                 newsName: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
                 newsText: "https://img.webtruyen.com/public/images/news/small74toptruyentienhiephaihuochaynhat.jpg"
               },
               {
-                link: "/",
+                link: "/truyen",
                 newsName: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
                 newsText: "https://img.webtruyen.com/public/images/news/small74toptruyentienhiephaihuochaynhat.jpg"
               },
               {
-                link: "/",
+                link: "/truyen",
                 newsName: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
                 newsText: "https://img.webtruyen.com/public/images/news/small74toptruyentienhiephaihuochaynhat.jpg"
               },
               {
-                link: "/",
+                link: "/truyen",
                 newsName: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
                 newsText: "https://img.webtruyen.com/public/images/news/small74toptruyentienhiephaihuochaynhat.jpg"
               },
               {
-                link: "/",
+                link: "/truyen",
                 newsName: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
                 newsText: "https://img.webtruyen.com/public/images/news/small74toptruyentienhiephaihuochaynhat.jpg"
               },
               {
-                link: "/",
+                link: "/truyen",
                 newsName: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
                 newsText: "https://img.webtruyen.com/public/images/news/small74toptruyentienhiephaihuochaynhat.jpg"
               },

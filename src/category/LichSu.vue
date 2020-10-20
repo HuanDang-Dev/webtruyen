@@ -112,25 +112,25 @@ export default {
       teen: false,
       truyenNgonTinh: [
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           text: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           chuong: "chương 1",
           image: "/img/logo.png"
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           text: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           chuong: "chương 1",
           image: "/img/logo.png"
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           text: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           chuong: "chương 1",
           image: "/img/logo.png"
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           text: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           chuong: "chương 1",
           image: "/img/logo.png"
@@ -138,13 +138,13 @@ export default {
       ],
       truyenTienHiep: [
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           text: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           chuong: "chương 1",
           image: "/img/logo.png"
         },
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           text: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           chuong: "chương 1",
           image: "/img/logo.png"
@@ -152,7 +152,7 @@ export default {
       ],
       truyenTeen: [
         {
-          link: "https://webtruyen.com/review/top-truyen-tien-hiep-hai-huoc-hay-nhat/",
+          link: "/truyen",
           text: "Top truyện tiên hiệp hài hước hay nhất đừng bỏ lỡ ",
           chuong: "chương 1",
           image: "/img/logo.png"
