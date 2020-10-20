@@ -2,7 +2,7 @@
   <div class="footer-component text-black py-2 pt-4 text-09">
     <div class="container">
       <div class="row m-0 p-0 text-left">
-        <div class="col-md-5 col-sm-6 m-0 px-5">
+        <div class="col-md-5 col-sm-12 m-0 px-5">
           <h5>
             <img class="footer-logo-img" src="/img/logo.png" alt />
             Doc Truyen Online
@@ -11,7 +11,7 @@
             class="text-left"
           >Chào mừng bạn đến với Webtruyen - Thế Giới Truyện Tiên Hiệp Huyền Ảo. Webtruyen (Webtruyen hay gọi tắt "Wt") là một nền tảng nội dung số trên internet, nơi thành viên có thể tự do xuất bản những nội dung tiếng Việt như: Tiểu thuyết, light novel, truyện ngắn hoặc thơ văn khác. Với những chức năng được cải tiến liên tục, Webtruyen sẽ mang lại cho Tác giả sáng tác truyện, Dịch giả đăng truyện và Người đọc truyện online những trải nghiệm tuyệt vời nhất. Đừng ngại đăng ký tài khoản tại Webtruyen, chỉ mất 30s và hoàn toàn miễn phí.</p>
         </div>
-        <div class="col-md-2 col-sm-6 m-0 p-1">
+        <div class="col-md-2 col-sm-4 m-0 p-1">
           <ul class="text-left list-nostyle">
               <li>Truyện Huyền Huyễn</li>
               <li>Truyện Kiếm Hiệp</li>
@@ -20,7 +20,7 @@
               <li>Truyện Tiên Hiệp</li>
           </ul>
         </div>
-        <div class="col-md-2 col-sm-6 m-0 p-1">
+        <div class="col-md-2 col-sm-4 m-0 p-1">
           <ul class="text-left list-nostyle">
               <li>Truyện Trinh Thám </li>
               <li>Truyện Hệ Thống</li>
@@ -29,7 +29,7 @@
               <li>Truyện Linh Dị</li>
           </ul>
         </div>
-        <div class="col-md-3 col-sm-6 m-0 p-1">
+        <div class="col-md-3 col-sm-4 m-0 p-1">
             <h5>Lien he</h5>
             <ul class="text-left list-nostyle d-inline-block social-icon">
                 <li>
@@ -44,8 +44,8 @@
             </ul>
         </div>
       </div>
-      <div class="row m-0 p-0 pt-2 border-top text-left pl-5">
-          <div class="col-6 p-0">
+      <div class="row m-0 p-0 pt-2 border-top text-left">
+          <div class="col-md-6 col-sm-4 p-0 pl-4">
               <ul class="list-nostyle d-flex flex-wrap">
                   <li class="pr-2 vs-navbar-before">
                     <a href="/news" class="p-0">News</a>
@@ -57,7 +57,7 @@
                   </li>
               </ul>
           </div>
-          <div class="col-6 p-0">
+          <div class="col-md-6 col-sm-8 p-0">
               <ul class="list-nostyle d-flex flex-wrap">
                   <li class="pr-2 vs-navbar-before">
                     <a href="/news" class="p-0">Private policy</a>

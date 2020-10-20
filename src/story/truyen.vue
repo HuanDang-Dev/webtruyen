@@ -5,7 +5,7 @@
     <div class="main-body height-100vh pt-4">
       <div class="container">
         <div class="row m-0 p-0">
-          <div class="col-8 pr-0">
+          <div class="col-lg-8 pr-0">
             <div class="card mb-3 border-0">
               <div class="row no-gutters">
                 <div class="col-12">

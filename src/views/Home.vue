@@ -5,23 +5,23 @@
     <div class="main-body height-100vh pt-4">
       <div class="container">
         <div class="row m-0 p-0">
-          <div class="col-8 pr-0">
+          <div class="col-lg-8 pr-0">
             <div class="card mb-3 border-0">
               <div class="row no-gutters">
                 <div class="col-12">
                   <div class="card-body">
                     <h5 class="card-title text-left">TRUYỆN ĐỀ CỬ</h5>
-                    <div class=" d-flex flex-row">
-                      <ul class="col-3" v-for="item in truyenDeCu" :key="item.id">
-                      <li>
-                        <a :href=item.link :title=item.title>
-                          <img :src=item.src :alt=item.title>
-                        </a> 
-                        <h6 class="card-text">
-                          <a href="">{{item.text}}</a>
-                        </h6>
-                      </li>
-                    </ul>
+                    <div>
+                      <ul class="d-flex row mb-0">
+                        <li  class="col-md-3 col-sm-6 my-3" v-for="item in truyenDeCu" :key="item.id">
+                          <a :href=item.link :title=item.title>
+                            <img :src=item.src :alt=item.title>
+                          </a> 
+                          <h6 class="card-text">
+                            <a href="">{{item.text}}</a>
+                          </h6>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -32,9 +32,9 @@
                 <div class="col-12">
                   <div class="card-body">
                     <h5 class="card-title text-left">TRUYỆN VIP</h5>
-                    <div class=" d-flex flex-row">
-                      <ul class="col-3" v-for="item in truyenVip" :key="item.id">
-                        <li>
+                    <div>
+                      <ul class="d-flex row mb-0">
+                        <li  class="col-md-3 col-sm-6 my-3" v-for="item in truyenVip" :key="item.id">
                           <a :href=item.link :title=item.title>
                             <img :src=item.src :alt=item.title>
                           </a> 
@@ -68,35 +68,41 @@
                       </div>
                       <div class="d-flex flex-column">
                           <ul class="py-1 my-0" v-if="ngontinh">
-                            <li class="d-flex flex-row text-justify border-item" v-for="item in truyenNgonTinh" :key="item.id">
-                              <h6 class="card-text col-8 text-left my-0 py-2">
+                            <li v-for="item in truyenNgonTinh" :key="item.id">
+                              <div class="d-flex flex-row border-item">
+                                <h6 class="card-text col-8 text-left my-0 pt-3">
                                 <a :href=item.link>{{item.text}}</a>
-                              </h6>
-                              <div class="col-4 d-flex text-08 my-0 py-2">
-                                <p class="mx-2">{{item.chuong}}</p>
-                                <p class="mx-2">{{item.time}}</p>
+                                </h6>
+                                <div class="col-4 d-flex text-08 my-0 pt-3">
+                                  <p class="mx-2">{{item.chuong}}</p>
+                                  <p class="mx-2">{{item.time}}</p>
+                                </div>
                               </div>
                             </li>
                           </ul>
                           <ul class="py-1 my-0" v-if="tienhiep">
-                            <li class="d-flex flex-row text-justify border-item" v-for="item in truyenTienHiep" :key="item.id">
-                              <h6 class="card-text col-8 text-left my-0 py-2">
+                            <li v-for="item in truyenTienHiep" :key="item.id">
+                              <div class="d-flex flex-row border-item">
+                                <h6 class="card-text col-8 text-left my-0 pt-3">
                                 <a :href=item.link>{{item.text}}</a>
-                              </h6>
-                              <div class="col-4 d-flex text-08 my-0 py-2">
-                                <p class="mx-2">{{item.chuong}}</p>
-                                <p class="mx-2">{{item.time}}</p>
+                                </h6>
+                                <div class="col-4 d-flex text-08 my-0 pt-3">
+                                  <p class="mx-2">{{item.chuong}}</p>
+                                  <p class="mx-2">{{item.time}}</p>
+                                </div>
                               </div>
                             </li>
                           </ul>
                           <ul class="py-1 my-0" v-if="teen">
-                            <li class="d-flex flex-row text-justify border-item" v-for="item in truyenTeen" :key="item.id">
-                              <h6 class="card-text col-8 text-left my-0 py-2">
+                            <li v-for="item in truyenTeen" :key="item.id">
+                              <div class="d-flex flex-row border-item">
+                                <h6 class="card-text col-8 text-left my-0 pt-3">
                                 <a :href=item.link>{{item.text}}</a>
-                              </h6>
-                              <div class="col-4 d-flex text-08 my-0 py-2">
-                                <p class="mx-2">{{item.chuong}}</p>
-                                <p class="mx-2">{{item.time}}</p>
+                                </h6>
+                                <div class="col-4 d-flex text-08 my-0 pt-3">
+                                  <p class="mx-2">{{item.chuong}}</p>
+                                  <p class="mx-2">{{item.time}}</p>
+                                </div>
                               </div>
                             </li>
                           </ul>
@@ -112,9 +118,9 @@
                 <div class="col-12">
                   <div class="card-body">
                     <h5 class="card-title text-left">TRUYỆN FULL</h5>
-                    <div class=" d-flex flex-row">
-                      <ul class="col-3" v-for="item in truyenFull" :key="item.id">
-                        <li>
+                    <div>
+                      <ul class="d-flex row mb-0">
+                        <li class="col-md-3 col-sm-6 my-3" v-for="item in truyenFull" :key="item.id">
                           <a :href=item.link :title=item.title>
                             <img :src=item.src :alt=item.title>
                           </a> 
@@ -132,19 +138,19 @@
               <div class="row no-gutters">
                 <div class="card-body">
                 <h5 class="card-title text-left">TRUYỆN NGẮN</h5>
-                  <div class="d-flex flex-row">
-                    <div class="col-6 d-flex align-items-center justify-content-center">
+                  <div class="d-flex row">
+                    <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center py-5">
                       <a href="#">
                         <img src="/img/logo.png">
                       </a>
                     </div>
-                    <div class=" d-flex flex-column col-6">
+                    <div class="d-flex flex-column col-md-6 col-sm-12 text-left">
                       <ul class="review-item mb-0" v-for="item in truyenNgan" :key="item.id"> 
                         <li class="d-flex flex-row news-item"> 
                           <a :href=item.link :title=item.title>
                             <img :src=item.src :alt=item.title>
                           </a> 
-                          <h6>
+                          <h6 class="pl-2">
                             <a :href=item.link :title=item.title>Top 7 truyện ngôn tình hay nhất Trung Quốc phải đọc một lần trong đời</a>
                           </h6>
                         </li>
@@ -344,7 +350,6 @@ ul > li {
   list-style: none;
 }
 .border-item {
-  height: 40px;
   border-top: 2px dashed #cfcfcf;
 }
 a {

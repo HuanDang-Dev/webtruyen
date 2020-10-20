@@ -1,13 +1,13 @@
 <template>
   <div class="navigation-component background-color">
     <vs-navbar
-      class="nabarx container py-0 text-left"
+      class="nabarx container py-0 text-left py-1"
       color="#2C7ABE"
       text-color="#FFFFFF"
       active-text-color="rgba(255,255,255,1)"
     >
       <div slot="title">
-        <vs-navbar-title class="text-white my-1 d-flex">
+        <vs-navbar-title class="text-white my-1 d-flex align-items-center">
           <img class="logo-img mx-2" src="/img/logo.png" alt="">
           <h4 class="mt-2">Doc truyen online</h4>
         </vs-navbar-title>
@@ -15,14 +15,14 @@
       <vs-navbar-item class="mx-2" index="0">
         <a class=" text-09" href="/">Home</a>
       </vs-navbar-item>
-      <vs-navbar-item class="mx-2" index="1" style="height: 40px">
+      <vs-navbar-item class="mx-2 my-2" index="1">
         
         <vs-dropdown class="text-white text-justify align-content">
           <a href="/category" class="d-flex text-09">
             Thể loại
           </a>
 
-          <vs-dropdown-menu>
+          <vs-dropdown-menu right>
             <div class=" d-flex flex-row">
               <div>
                 <vs-dropdown-item>
@@ -69,7 +69,7 @@
         </vs-dropdown>
 
       </vs-navbar-item>
-      <vs-navbar-item class="mx-2" index="2">
+      <vs-navbar-item class="mx-2 my-2" index="2">
         <vs-dropdown class="text-white text-justify align-content">
           <a href="/search" class="d-flex text-09">
             Sắp xếp
@@ -120,7 +120,7 @@
           </vs-dropdown-menu>
         </vs-dropdown>
       </vs-navbar-item>
-      <vs-navbar-item class="mx-2" index="3">
+      <vs-navbar-item class="mx-2 my-2" index="3">
         <a class=" text-09" href="/news">News</a>
       </vs-navbar-item>
       <div class="d-flex align-items-center">
