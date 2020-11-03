@@ -13,7 +13,7 @@
                     <h5 class="card-title text-left">Truyện Vip</h5>
                     <div class="novel-info text-left">
                         <a href="/truyen/do-de-cua-ta-deu-la-trum-phan-dien-dich/chuong-1.html" class="cover position-relative">
-                            <img data-src="https://media.truyenyy.vn/novels/2020-04/d37990b1ed.jpg" class="zoom-me lazy loaded" title="Truyện Đồ Đệ Của Ta Đều Là Trùm Phản Diện (Dịch)" src="https://media.truyenyy.vn/novels/2020-04/d37990b1ed.jpg" data-was-processed="true">
+                            <img data-src="/public/img/story/tentruyen.jpg" class="zoom-me lazy loaded" title="Truyện Đồ Đệ Của Ta Đều Là Trùm Phản Diện (Dịch)" src="https://media.truyenyy.vn/novels/2020-04/d37990b1ed.jpg" data-was-processed="true">
                             <span class="novel-stripe"><span class="red">Top 7</span></span>
                             
                         </a>
