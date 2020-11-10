@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <NavigationComponent></NavigationComponent>
+    <NavigationComponent @handleSearch="handleClickInParent" ></NavigationComponent>
     <BackgroundComponent></BackgroundComponent>
     <div class="main-body height-100vh pt-4">
       <div class="container">
@@ -196,6 +196,7 @@ export default {
   },
   data() {
     return {
+      search:"",
       truyenNgan: [
         {
           link: "/truyen",
@@ -340,8 +341,13 @@ export default {
           src: "/img/logo.png"
         }
       ]
-  };
-}
+          }
+  },
+  methods:{
+    handleClickInParent: function (search) {
+      this.search = search
+    }
+  }
 };
 </script>
 <style scoped>

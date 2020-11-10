@@ -124,8 +124,8 @@
         <a class=" text-09" href="/news">News</a>
       </vs-navbar-item>
       <div class="d-flex align-items-center">
-        <vs-input class="px-0 ml-2 mx-1" placeholder="Search" v-model="search"/>
-        <vs-button color="white" type="gradient" icon="search"></vs-button>
+        <vs-input class="px-0 ml-2 mx-1" placeholder="Search" type="text" v-model="search"/>
+        <vs-button color="white" type="gradient" icon="search" href="/search" @click="dataSreach"></vs-button>
       </div>
 
       <div class="">
@@ -173,7 +173,7 @@
 <script>
 export default {
   name: "NavigationComponent",
-  props: {},
+  props: ["key"],
   data() {
     return {
       search: "",
@@ -191,6 +191,10 @@ export default {
     }
   },
   methods:{
+    dataSreach: function() {
+      this.key = this.search
+      this.$emit('handleSearch', this.key)
+    },
     acceptAlert(){
       this.$vs.notify({
         color:'success',
