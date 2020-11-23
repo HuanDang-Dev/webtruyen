@@ -8,7 +8,7 @@
     >
       <div slot="title">
         <vs-navbar-title class="text-white my-1 d-flex align-items-center">
-          <img class="logo-img mx-2" src="/img/logo.png" alt="">
+          <img class="logo-img mx-2" src="/images/logo.png" alt="">
           <h4 class="mt-2">Doc truyen online</h4>
         </vs-navbar-title>
       </div>
@@ -125,47 +125,24 @@
       </vs-navbar-item>
       <div class="d-flex align-items-center">
         <vs-input class="px-0 ml-2 mx-1" placeholder="Search" type="text" v-model="search"/>
-        <vs-button color="white" type="gradient" icon="search" href="/search" @click="dataSreach"></vs-button>
+        <vs-button color="white" type="gradient" icon="search" :href=link @click="dataSreach"></vs-button>
       </div>
 
-      <div class="">
-        <vs-button class="border-0 ml-2 text-08" @click="activePrompt = true" color="#F60" type="gradient" icon="person" size="small">Đăng Nhập</vs-button>
-        <vs-prompt
-          class="d-flex text-center text-justify"
-          color="primary"
-          @cancel="valMultipe.email='',valMultipe.password=''"
-          title="Đăng Nhập"
-          buttons-hidden
-          :is-valid="validName"
-          :active.sync="activePrompt">
-          <div class="con-exemple-prompt d-flex text-left flex-column text-justify">
-            <div class="px-2 my-2">
-              <vs-input class="form-input" label="Email" placeholder="Email" v-model="valMultipe.email"/>
-            </div>
-            <div class="px-2 my-2">
-              <vs-input class="form-input" label="Password" placeholder="Password" v-model="valMultipe.password"/>
-            </div>
-
-            <div class="mr-3 mt-2">
-              <vs-alert class="mx-2 my-2" :active="!validName" color="danger" icon="new_releases" >
-                Fields can not be empty please enter the data
-              </vs-alert>
-            </div>
-
-            <div class="px-2 py-2">
-              <vs-checkbox class="left-content" v-model="checkBox">Ghi nhớ mật khẩu</vs-checkbox>
-            </div>
-
-            <vs-button class="mx-2 mt-4" color="primary" type="border">Đăng Nhập</vs-button>
-
-            <div class="mx-2 my-1">
-              <a href="#">Quên mật khẩu?</a>
-            </div>
+      <div class="pl-1 ml-1">
+        <a href="/login">
+          <div class="d-flex align-items-center text-white">
+            <h6 class="pt-2">Đăng nhập</h6>
           </div>
-        </vs-prompt>
+        </a>
       </div>
-
-      <vs-button class="text-08 ml-2" to="/" color="#F60" type="gradient" icon="person_add" size="small">Đăng Ký</vs-button>
+      <div class="pl-3 ml-3">
+        <a href="/post">
+          <div class="d-flex align-items-center text-white">
+            <i class="far fa-user-circle pr-2 btn-icon-big"></i>
+            <h6 class="pt-2">Đăng truyện</h6>
+          </div>
+        </a>
+      </div>
     </vs-navbar>
   </div>
 </template>
@@ -173,7 +150,6 @@
 <script>
 export default {
   name: "NavigationComponent",
-  props: ["key"],
   data() {
     return {
       search: "",
@@ -182,7 +158,8 @@ export default {
         email:'',
         password:''
       },
-      checkBox:true
+      checkBox:true,
+      link: ''
     };
   },
   computed:{
@@ -192,8 +169,9 @@ export default {
   },
   methods:{
     dataSreach: function() {
-      this.key = this.search
-      this.$emit('handleSearch', this.key)
+      if(this.search){
+        this.link = '/search/' + this.search;
+      }
     },
     acceptAlert(){
       this.$vs.notify({
@@ -247,5 +225,8 @@ a {
 }
 .left-content input {
   padding: 10px;
+}
+i {
+  font-size: 20px;
 }
 </style>

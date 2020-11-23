@@ -124,6 +124,30 @@ export default new Router({
             name: 'search',
             component: () =>
                 import ('./search/Search.vue')
+        },
+        {
+            path: '/login',
+            name: 'login',
+            component: () =>
+                import ('./login/Login.vue')
+        },
+        {
+            path: '/register',
+            name: 'register',
+            component: () =>
+                import ('./login/Registration.vue')
+        },
+        {
+            path: '/post',
+            name: 'post',
+            component: () =>
+                import ('./auth/Post.vue')
+        },
+        {
+            path: '/dangtruyen',
+            name: 'dangtruyen',
+            component: () =>
+                import ('./auth/DangChap.vue')
         }
     ]
 })
